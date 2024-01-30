@@ -1,0 +1,9 @@
+.Post{
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 3px #ccc;
+    padding: 20px;
+}
+
+.Post h1{
+    color: #fa923f;
+}

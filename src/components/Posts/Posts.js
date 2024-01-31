@@ -1,6 +1,6 @@
 import React from "react";
 import Post from "../Post/Post";
-import "./Posts.css";
+import style from "./Posts.module.css";
 
 const Posts = ({ posts,handelSetPost }) => {
 
@@ -17,7 +17,7 @@ const Posts = ({ posts,handelSetPost }) => {
     );
   });
 
-  return <div className="Posts">{loadedPosts}</div>;
+  return <div className={style.Posts}>{loadedPosts}</div>;
 };
 
 
